@@ -1,5 +1,5 @@
-title: About the Master of Science in Marketing
-date: 2020-12-18
+About the Master of Science in Marketing
+
 
 
 The Master of Science in Marketing at McCombs School of Business is a 1 year STEM certified program. The program focuses on giving students the skills necessary to transform data, gather insights, and create robust business solutions. 
