@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Site Author
 author:
   name: "Anna Wallin"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: ![image](https://user-images.githubusercontent.com/76073032/102818657-b8886000-4397-11eb-9e1e-d56821636766.png)
   bio: "A grad student in Austin"
   location: "Texas"
   links:
