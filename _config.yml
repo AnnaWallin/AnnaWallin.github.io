@@ -13,5 +13,7 @@ previews: 3
 Default: 5
 button: false
 
+color+_scheme: dark
+
 
   
