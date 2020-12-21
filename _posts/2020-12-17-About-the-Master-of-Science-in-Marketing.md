@@ -1,3 +1,7 @@
+permalink: /about-the-master-of-science-in-marketing/
+---
+
+
 About the Master of Science in Marketing
 
 
