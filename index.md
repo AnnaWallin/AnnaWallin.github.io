@@ -42,3 +42,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+# social links
+github_username:  annawallin
+linkedin_username: Anna Rosemarie Wallin
+show_excerpts: true # set to false to remove excerpts on the homepage
