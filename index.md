@@ -1,3 +1,11 @@
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 
 <img src="https://user-images.githubusercontent.com/76073032/102819744-b58e6f00-4399-11eb-826f-932b57f9f670.png" width="200" height="150" />
@@ -8,3 +16,4 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 
 
 <a href="/projects/" title="Projects">Projects</a>
+
