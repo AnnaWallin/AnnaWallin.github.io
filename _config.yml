@@ -5,6 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Marketing analytics projects. Data visualization projects. Portfolio.
 location: Texas
 Bio: Grad Student at the University of Texas at Austin
+search_enabled: True
+
+search:
+heading_level: 2
+previews: 3
+Default: 5
+button: false
 
 
   
