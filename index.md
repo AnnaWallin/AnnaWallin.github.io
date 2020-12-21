@@ -21,3 +21,6 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 5. hiya
 {:toc}
 </details>
+
+aux_links: "Find Anna Rosemarie Wallin on Linkedin":
+-"https://www.linkedin.com/in/anna-r-wallin/"
