@@ -7,6 +7,9 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 
 <a href="/projects/" title="Projects">Projects</a>
 
+<a href="/about-me/" title="About Me">About Me</a>
+
+
 <details open markdown="block">
   <summary>
     Table of contents
