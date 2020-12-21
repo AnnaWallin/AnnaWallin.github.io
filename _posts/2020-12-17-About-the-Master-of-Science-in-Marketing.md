@@ -1,7 +1,7 @@
 ---
-title: "PAGE TITLE"
+title: "About the MSM"
 theme: jekyll-theme-slate
-layout: post
+layout: default
 permalink: /about-the-master-of-science-in-marketing/
 ---
 
