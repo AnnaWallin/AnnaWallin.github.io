@@ -3,7 +3,7 @@ Thank you for visiting my page. My name is Anna Wallin, and I am currently a gra
 
 <a href="/about-the-master-of-science-in-marketing/" title="About the Master of Science in Marketing">About the Master of Science in Marketing</a>
 
-[Projects](https://annawallin.github.io/Projects/)
+[Projects](https://annawallin.github.io/Projects.md)
 
 You can use the [editor on GitHub](https://github.com/AnnaWallin/website2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
