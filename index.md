@@ -3,7 +3,7 @@ Thank you for visiting my page. My name is Anna Wallin, and I am currently a gra
 
 <a href="/about-the-master-of-science-in-marketing/" title="About the Master of Science in Marketing">About the Master of Science in Marketing</a>
 
-[Projects](https://annawallin.github.io/Projects)
+
 <a href="https://annawallin.github.io/Projects/" title="Projects">Projects</a>
 
 
