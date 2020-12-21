@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 location: Texas
 Bio: Grad Student at the University of Texas at Austin
 search_enabled: True
+has_toc: true
 
 search:
 heading_level: 2
