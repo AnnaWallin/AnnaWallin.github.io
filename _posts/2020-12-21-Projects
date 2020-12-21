@@ -1,1 +1,6 @@
-
+---
+title: "Projects"
+theme: jekyll-theme-slate
+layout: default
+permalink: /Projects/
+---
