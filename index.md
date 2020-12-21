@@ -46,5 +46,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 # social links
 github_username:  annawallin
+
 linkedin_username: Anna Rosemarie Wallin
-show_excerpts: true # set to false to remove excerpts on the homepage
+
