@@ -1,10 +1,20 @@
 title: Anna Wallin's Projects
-author: Anna Wallin
 theme: jekyll-theme-slate
 description: > # this means to ignore newlines until "baseurl:"
   Marketing analytics projects. Data visualization projects. Portfolio.
 
-# social links
-github_username:  annawallin
-linkedin_username: Anna Rosemarie Wallin
-show_excerpts: true # set to false to remove excerpts on the homepage
+
+# Site Author
+author:
+  name: "Anna Wallin"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "A grad student in Austin"
+  location: "Texas"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/annawallin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anna-r-wallin/"
+  
