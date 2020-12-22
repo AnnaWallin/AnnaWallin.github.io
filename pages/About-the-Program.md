@@ -6,13 +6,13 @@ layout: default
 ---
 
 
-**About the Master of Science in Marketing...**
+## About the Master of Science in Marketing...
 
 
 
 The Master of Science in Marketing at McCombs School of Business is a 1 year STEM certified program. The program focuses on giving students the skills necessary to transform data, gather insights, and create robust business solutions. 
 
-Coursework includes:
+**Coursework includes:**
 
 - Financial Management
 - Marketing Management
@@ -31,7 +31,7 @@ Coursework includes:
 - Marketing Intelligence Capstone
 
 
-Tools and Skills: 
+**Tools and Skills:**
 - Excel
 - R
 - Python
@@ -44,7 +44,7 @@ Tools and Skills:
 - RFM Analysis
 
 
-Previous roles that graduates have worked in:
+**Previous roles that graduates have worked in:**
 - Consulting Analyst
 - Business Analyst
 - Consumer Insights Analyst
