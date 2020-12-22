@@ -8,10 +8,10 @@
   </summary>
   
   {: .text-delta }
-1. <a id="intro">Introduction </a><br>
+1. <a id="#intro">Introduction </a><br>
 
 
-2. <a id="links">Academic Program Links </a><br>
+2. <a id="#links">Academic Program Links </a><br>
 
 {:toc}
 </details>
