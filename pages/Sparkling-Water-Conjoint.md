@@ -21,5 +21,4 @@ Prices: $1.50, $3.00, $4.00
 ### Preferences for a single respondent
 Here we have an anonymous respondent, P. We can see that their best option would be a mango flavored, sweetened sparkling water that is packaged in a plastic bottle and sold for $1.50. 
 
-![iconjoint_best](https://user-images.githubusercontent.com/76073032/102925263-a6222b00-4458-11eb-9fed-9cdd65fe4a14.png)
-
+![image](https://user-images.githubusercontent.com/76073032/102925809-b2f34e80-4459-11eb-8c7a-b994d46db917.png)
