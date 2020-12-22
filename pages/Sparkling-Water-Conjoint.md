@@ -2,7 +2,7 @@
 title: "Sparkling Water Conjoint"
 theme: default
 layout: default
-Parent: Projects
+Parent: Projects.md
 ---
 
 bobbb
