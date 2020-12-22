@@ -26,6 +26,36 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 [Link to McGill University](https://www.mcgill.ca) <br>
 
 <h2 id="lasagna">click</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a href="#lasagna">Click here to see my lasagna recipe.</a>
 
 
