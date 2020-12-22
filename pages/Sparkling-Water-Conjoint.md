@@ -29,3 +29,4 @@ Here we have an anonymous respondent, P. We can see that their best option would
 
 ![conjointalternatives](https://user-images.githubusercontent.com/76073032/102926495-b76c3700-445a-11eb-9535-577c312e66ac.png)
 
+### Which product does the consumer choose given two options?
