@@ -4,6 +4,7 @@ layout: default
 nav_order: 1
 has_children: true
 ---
+## About me...
 
 Just having graduated from McGill University in Montreal, I looked for my next step. I found it at the University of Texas at Austin, where I am pursuing my Master of Science in Marketing. I became interested in marketing through GIS classes that I took in my undergraduate studies. In one project, in particular, we were tasked with finding the optimal location for a certain storefront given  target customers. I started to wonder how those target markets were selected and decided to pursue a career in marketing. 
 
