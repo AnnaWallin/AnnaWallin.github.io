@@ -19,10 +19,13 @@ Sweetness: Sugar-free, sweetened
 Prices: $1.50, $3.00, $4.00
 
 ### Preferences for a single respondent
+
 Here we can see that respondent P values flavor the most, followed by whether or not the beverage is sweetened. Packaging plays the smallest role in their purchasing decision. 
-![attributeweights](https://user-images.githubusercontent.com/76073032/102926436-999ed200-445a-11eb-83ba-084c496be033.png)
+
+![relIMportanceattributes](https://user-images.githubusercontent.com/76073032/102929455-3ca61a80-4460-11eb-94f1-74f895b4e8ae.png)
 
 
 Here we have an anonymous respondent, P. We can see that their best option would be a mango flavored, sweetened sparkling water that is packaged in a plastic bottle and sold for $1.50. Their worst option would be lemon flavored sparkling water that is packaged in a glass bottle and sold for $4.00. 
+
 ![conjointalternatives](https://user-images.githubusercontent.com/76073032/102926495-b76c3700-445a-11eb-9535-577c312e66ac.png)
 
