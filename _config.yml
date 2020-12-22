@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Marketing analytics projects. Data visualization projects. Portfolio.
 location: Texas
 Bio: Grad Student at the University of Texas at Austin
-search_enabled: True
+search_enabled: true
 has_toc: true
 
 search:
