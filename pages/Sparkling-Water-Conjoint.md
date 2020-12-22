@@ -1,5 +1,5 @@
 ---
-title: "Sparkling Water Conjoint"
+title: "Sparkling Water - Conjoint Analysis"
 theme: default
 layout: default
 parent: Projects
