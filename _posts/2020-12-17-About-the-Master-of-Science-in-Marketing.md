@@ -1,6 +1,7 @@
 ---
 title: "About the MSM"
 theme: jekyll-theme-slate
+nav_order: 1
 layout: default
 permalink: /about-the-master-of-science-in-marketing/
 ---
