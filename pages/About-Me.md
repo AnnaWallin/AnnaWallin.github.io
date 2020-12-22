@@ -5,9 +5,9 @@ nav_order: 1
 has_children: true
 ---
 
-Just having graduated from McGill University in Montreal, I looked for my next adventure. I found it at the University of Texas at Austin, where I am pursuing my Master of Science in Marketing. I became interested in marketing through GIS classes that I did in my undergraduate studies. In one project, in particular, we were tasked with finding the optimal location for a certain storefront given certain target customers. I started to wonder how those target markets were selected and through exploring, found the MSM!
+Just having graduated from McGill University in Montreal, I looked for my next step. I found it at the University of Texas at Austin, where I am pursuing my Master of Science in Marketing. I became interested in marketing through GIS classes that I took in my undergraduate studies. In one project, in particular, we were tasked with finding the optimal location for a certain storefront given  target customers. I started to wonder how those target markets were selected and decided to pursue a career in marketing. 
 
-In my free-time, I love to play with my dog (Comet), hike and camp, and make my own ice cream! 
+In my free-time, I like to play with my dog (Comet), hike, and make my own ice cream. 
 
 <img src="https://user-images.githubusercontent.com/76073032/102831904-89cbb300-43b2-11eb-8fc5-bb9dc2e44635.png" width="200" height="150" />
 <img src="https://user-images.githubusercontent.com/76073032/102831727-1aee5a00-43b2-11eb-800a-b1d51a17c7cd.png" width="200" height="150" />
