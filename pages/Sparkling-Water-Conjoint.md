@@ -34,10 +34,13 @@ Here we have two products on the market and have calculated that respondent P wi
 ![image](https://user-images.githubusercontent.com/76073032/102932215-775e8180-4465-11eb-9b20-1166ffd87080.png)
 
 We can perform the same calculation for 10 of our respondents to see which product is expected to dominate in the market.
-![image](https://user-images.githubusercontent.com/76073032/102932164-5f86fd80-4465-11eb-9e6d-38506108d0c8.png)
+![image](https://user-images.githubusercontent.com/76073032/102933459-e4731680-4467-11eb-8eca-c428dca1766a.png)
 
 
 
 Next, let's say that a company is trying to ascertain how well their new product will do in the marketplace. Here is a snapshot of the calculation to see which product a certain consumer (Respondent P) will choose. In this case, they chose option 3, the new product. 
 
 ![whichchoice](https://user-images.githubusercontent.com/76073032/102930787-bccd7f80-4462-11eb-89c3-8802347e7619.png)
+
+The addition of the new product has clearly been successful.
+![image](https://user-images.githubusercontent.com/76073032/102933532-02407b80-4468-11eb-86d3-e0b5193b1dea.png)
