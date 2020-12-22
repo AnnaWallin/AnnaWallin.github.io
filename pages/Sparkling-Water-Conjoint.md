@@ -12,11 +12,11 @@ Conjoint analysis is a helpful tool to indirectly analyze consumer preferences. 
 ### Project scope
 For this project, our team examined sparkling water preferences. The attributes we examined were: flavor, packaging, sweetness, and price. We sent out a survey and analyzed responses.
 
-**Attribute levels are as follows:**
-Flavors: Mango, lemon, cherry
-Packaging: Plastic bottle, metal can, glass bottle
-Sweetness: Sugar-free, sweetened
-Prices: $1.50, $3.00, $4.00
+**Attribute levels are as follows:**<br>
+Flavors: Mango, lemon, cherry<br>
+Packaging: Plastic bottle, metal can, glass bottle<br>
+Sweetness: Sugar-free, sweetened<br>
+Prices: $1.50, $3.00, $4.00<br>
 
 ### Preferences for a single respondent
 
