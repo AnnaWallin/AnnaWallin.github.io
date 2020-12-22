@@ -29,6 +29,15 @@ Here we have an anonymous respondent, P. We can see that their best option would
 ![conjointalternatives](https://user-images.githubusercontent.com/76073032/102926495-b76c3700-445a-11eb-9535-577c312e66ac.png)
 
 ### Which product does the consumer choose given two options?
-Let's say that a company is trying to ascertain how well their new product will do in the market. Here is a snapshot of the calculation to see which product a certain consumer (Respondent P) will choose. In this case, they chose option 3, the new product. 
+Here we have two products on the market and have calculated that respondent P will choose option 2, given their preferences. 
+
+![image](https://user-images.githubusercontent.com/76073032/102932215-775e8180-4465-11eb-9b20-1166ffd87080.png)
+
+We can perform the same calculation for 10 of our respondents to see which product is expected to dominate in the market.
+![image](https://user-images.githubusercontent.com/76073032/102932164-5f86fd80-4465-11eb-9e6d-38506108d0c8.png)
+
+
+
+Next, let's say that a company is trying to ascertain how well their new product will do in the marketplace. Here is a snapshot of the calculation to see which product a certain consumer (Respondent P) will choose. In this case, they chose option 3, the new product. 
 
 ![whichchoice](https://user-images.githubusercontent.com/76073032/102930787-bccd7f80-4462-11eb-89c3-8802347e7619.png)
