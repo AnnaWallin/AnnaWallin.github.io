@@ -22,11 +22,12 @@ Prices: $1.50, $3.00, $4.00
 
 Here we can see that respondent P values flavor the most, followed by whether or not the beverage is sweetened. Packaging plays the smallest role in their purchasing decision. 
 
-![relIMportanceattributes](https://user-images.githubusercontent.com/76073032/102929455-3ca61a80-4460-11eb-94f1-74f895b4e8ae.png)
-
+![ConjointAttributePreferencesRelative](https://user-images.githubusercontent.com/76073032/102930367-e33eeb00-4461-11eb-87db-81f8db6ea7a7.png)
 
 Here we have an anonymous respondent, P. We can see that their best option would be a mango flavored, sweetened sparkling water that is packaged in a plastic bottle and sold for $1.50. Their worst option would be lemon flavored sparkling water that is packaged in a glass bottle and sold for $4.00. 
 
 ![conjointalternatives](https://user-images.githubusercontent.com/76073032/102926495-b76c3700-445a-11eb-9535-577c312e66ac.png)
 
 ### Which product does the consumer choose given two options?
+Let's say that a company is trying to ascertain how well their new product will do in the market. Here is a snapshot of the calculation to see which product a certain consumer (Respondent P) will choose. In this case, they chose option 2. 
+![WhichDoTheyChoose](https://user-images.githubusercontent.com/76073032/102930291-c1ddff00-4461-11eb-8f2a-ce00de4c5574.png)
