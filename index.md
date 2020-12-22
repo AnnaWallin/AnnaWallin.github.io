@@ -8,10 +8,10 @@
   </summary>
   
   {: .text-delta }
-1. <a href="#intro">Introduction </a><br>
+1. <a id="intro">Introduction </a><br>
 
 
-2. <a href="#links">Academic Program Links </a><br>
+2. <a id="links">Academic Program Links </a><br>
 
 {:toc}
 </details>
@@ -25,5 +25,7 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
 [Link to McGill University](https://www.mcgill.ca) <br>
 
+<h2 id="lasagna">click</h2>
+<a href="#lasagna">Click here to see my lasagna recipe.</a>
 
 
