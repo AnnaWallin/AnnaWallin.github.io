@@ -1,5 +1,5 @@
 ---
-title: "Streaming Platform Movie Data Visualization"
+title: "Streaming Platform - Python Data Visualization"
 theme: default
 layout: default
 parent: Projects
