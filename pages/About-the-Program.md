@@ -19,7 +19,7 @@ Coursework includes:
 - Statistics for Marketing
 - Marketing Analytics 1
 - Marketing Analytics 2
-- Data Analytics and Visualiztion
+- Data Analytics and Visualization
 - Data Analysis and Dynamic Pricing
 - Product and Brand Management
 - Design Thinking
