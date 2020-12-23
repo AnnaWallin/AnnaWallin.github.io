@@ -27,6 +27,20 @@ plt.xlabel("Language", size=12) #label
 plt.ylabel("Count", size=12) #label
 ```
 
+![MovieLang](https://user-images.githubusercontent.com/76073032/102957852-2a000580-44a1-11eb-87b8-c177fa84191c.png)
+
+**Fig 0** Shows most common languages across streaming services
+
+The goal of this project was to examine overall prevalence of film genre as well as their breakdown on different streaming services. This data and related visualiztions can help users to optimize their subscription choices. For example, if an individual is interested in watching comedies, they could opt for the platform which has the highest proportion of comedies. The secondary goal was to examine ratings data from two popular sites: IMDb and Rotten Tomatoes.
+
+In order to work with the data, there are several libraries that were imported. They include pandas, numpy, matplotlib, and seaborn. These are commonly found in the data science world and are useful to manipulate data and then to visualize it. It is then necessary to read in the CSV file and create a dataframe to work with. Finally, examining null values is essential. In fig. 1, there is a breakdown of the null values within the dataset. Interestingly, Rotten Tomatoes appears to have many more nulls than IMDb. The value for Rotten Tomatoes (11,586 nulls) appeared quite large and was double checked via sorting, binary coding the empty values, and then counting them. In order to aptly compare IMDb and Rotten Tomatoes scoring sites, they were filtered to exclude any nulls.
+
+Additionally, the genre column features multiple entries for a single movie, which were separated by commas. This was "cleaned up" by splitting by comma. The explode method used accounts for missing values. This created a separate entry for each genre, which was linked according to an ID. Then, graphs were created that visualized the overall breakdown of films by genres (fig. 2-fig. 6). Countplot was used in each case and percentages, which denote genre/movie, were added to the top of each bar. Each movie can have multiple genre tags, so the total percentage can add up to above 100%. The bars are listed in descending order, so that the most common genre comes first. Bar coloring is also consistent throughout (E.G. Drama is always magenta). Overall, dramas were the most common on all platforms, except for Disney Plus, which featured the most family films. Necessary columns were renamed (Disney + to Disney, Prime Video to Amazon), so that the code would run under different uses, without special cases like spacing and symbols. Seaborn FacetGrid was not used because the Netflix, Hulu, Disney Plus, and Prime Video (Amazon) data were binary coded with the possibility of films being available on multiple platforms. This made it difficult to employ this technique. Therefore, graphs were done individually without FacetGrid being employed.
+
+Next, scatterplots (fig. 7-fig. 11) were created to show the breakdown of movie ratings overall and according to platform. While, as mentioned earlier, Rotten Tomatoes, has a higher average rating than IMDb, there are roughly positive correlations throughout. So, if a movie is rated highly on IMDb, it could well be likely rated on Rotten Tomatoes as well.
+
+Overall, this project will help movie viewers to better understand their streaming options and rating systems. They can learn which platforms have the most films, the most fims in their favorite genres, and learn more about two popular rating sites.
+
 ```
 #preliminary background snooping to gain a greater appreciation and understanding of the data.
 #import to work with your data
