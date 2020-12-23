@@ -176,3 +176,40 @@ for p in ax3.patches:
     y = p.get_height()
     ax3.annotate(percentageHulu, (x, y),ha='center');
 ```
+![hulu](https://user-images.githubusercontent.com/76073032/103040854-5320a480-453a-11eb-994b-5e967d20c411.png)<br>
+**fig. 4** shows a breakdown of films by movie genre on Hulu<br>
+
+```
+#disney attempt 
+Disney_Count = df2.groupby(['ID', "MovieType"], as_index=False)['Disney+'].aggregate(np.mean) 
+Disney_Count #group to simplify
+Disney_Count.rename(columns = {'Disney+':'Disney'}, inplace = True) #rename Disney+ column to Disney to get next line to run
+df_Disney=Disney_Count[(Disney_Count.Disney == 1)] #select only movies on Disney
+
+dimensions_for_graph = (6, 5) #to avoid overlapping percents 
+a4_dims = (11.7, 8.27)
+fig, ax = plt.subplots(figsize=a4_dims)
+
+descending_order_Disney = df_Disney["MovieType"].value_counts().sort_values(ascending=False).index
+sns.set_palette(["slateblue","blue","palegreen","lightcoral","magenta","wheat","brown","red","cornflowerblue", "purple","green","yellow","deepskyblue","cyan","gold","orange","darkgoldenrod","springgreen","pink","teal","black","orchid","tan","black","plum","tan","thistle"])
+sns.set_style("darkgrid")
+ax4=sns.countplot(x='MovieType', data=df_Disney, order=descending_order_Disney)
+plt.xticks(rotation=90)
+#add labeling
+plt.title("Distribution of Genres on Disney Plus", size=26) #add title
+plt.xlabel("Movie Genre", size=18)
+plt.ylabel("Count on Streaming Platform", size=18)
+
+#add percents 
+#create df that has Hulu but without split column for denominator
+df_Disney_NoSplit= df.groupby(['ID', "Genres", "Title"], as_index=False)['Disney+'].aggregate(np.mean) #this groups Disney in OG dataframe (no split)
+df_Disney_NoSplit.rename(columns = {'Disney+':'Disney'}, inplace = True)
+df_Disney_NoSplit_OnlyDisney=df_Disney_NoSplit[(df_Disney_NoSplit.Disney == 1)] #this takes values where Disney is 1 (AKA film is on Disney)
+#add percents
+total4=(len(df_Disney_NoSplit_OnlyDisney["Title"]))
+for p in ax4.patches:
+    percentageDisney = '{:.1f}%'.format(100 * p.get_height()/total4)
+    x = p.get_x() + p.get_width()
+    y = p.get_height()
+    ax4.annotate(percentageDisney, (x, y),ha='center');
+```
