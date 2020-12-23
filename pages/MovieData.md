@@ -250,3 +250,19 @@ for p in ax_Amazon.patches:
     y = p.get_height()
     ax_Amazon.annotate(percentageAmazon, (x, y),ha='center');
 ```
+![amazon](https://user-images.githubusercontent.com/76073032/103041065-ef4aab80-453a-11eb-8d35-6a5c6ddbbb9d.png)<br>
+**fig. 6** shows a breakdown of films by movie genre on Prime Video (Amazon)<br>
+
+### Examining Genre Popularity According to Streaming Platform
+Using the newly created dataframe (df2), which was split according to genre, countplots were created to compare genre popularity. Dramas were the most common on every platform except Disney Plus, where the Family genre ranked first. The second most frequent genre across platforms was the Comedy genre (fig. 2 - fig. 6). However, if a user is interested in optimizing their subscription choice according to their genre preference, they can select the platform that has the highest proportion of the type of show that interests them. For example, if an individual is fond of action, they could opt to purchase a Prime Video (Amazon) subscription because this platform has the proportion of this film type at 16.8% (fig. 6). Additionally, if a user simply wants the most choice, they would be best off purchasing a subscription to Prime Video (Amazon), which has 12,353 films. Their next best option would be Netflix at 3,560 films. Essentially, these graphs allow users to visualize and then optimize their streaming platform choice according to their genre preferences. Colors have been standardized across graphs (E.G. magenta always denotes Drama). Percentages at the top of the bars will add up to over 100% because each film has multiple genre listings. For example, Inception is tagged as: Action, Adventure, Sci-Fi, and Thriller.
+
+```
+df_handle_nulls_Ratings.rename(columns = {'Rotten Tomatoes':'Rotten_Tomatoes'}, inplace = True) #rename Disney+ column to Disney to get next line to run
+dimensions_for_graph = (8, 6) #to avoid overlapping percents 
+a3_dims=(6, 3)
+fig, ax = plt.subplots(figsize=a3_dims)
+sns.scatterplot(data=df_handle_nulls_Ratings, x="IMDb", y="Rotten_Tomatoes", color="cornflowerblue")
+plt.ylabel("Rotten Tomatoes Rating", size=10)
+plt.xlabel("IMDb Rating", size=10)
+plt.title("IMDb vs Rotten Tomato Ratings Overall",size=16)
+```
