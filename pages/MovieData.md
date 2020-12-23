@@ -266,3 +266,12 @@ plt.ylabel("Rotten Tomatoes Rating", size=10)
 plt.xlabel("IMDb Rating", size=10)
 plt.title("IMDb vs Rotten Tomato Ratings Overall",size=16)
 ```
+![image](https://user-images.githubusercontent.com/76073032/103041177-42bcf980-453b-11eb-9e2c-186a97e63015.png)<br>
+**Fig. 7** shows a scatter plot of IMDb and Rotten Tomato Ratings Overall<br>
+
+```
+sns.boxplot( x=df["Year"], width=0.3 )
+plt.title("Distribution of Movie Release Years", size=24)
+plt.xlabel("Movie Release Year",size=14)
+plt.show()
+```
