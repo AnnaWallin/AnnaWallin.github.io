@@ -110,4 +110,36 @@ for p in ax2.patches:
 ```
 ![genre_overall](https://user-images.githubusercontent.com/76073032/102958192-01c4d680-44a2-11eb-8f4c-ec1054482261.png)
 **Fig 2** shows the breakdown of movies according to genre overall <br>
-**Note:** the percentages may be over 100% because each film can have more than one tag. For example, the Movie *Inception* has the following tags: Action,Adventure,Sci-Fi,Thriller
+**Note:** the percentages may be over 100% because each film can have more than one tag. For example, the Movie *Inception* has the following tags: Action,Adventure,Sci-Fi,Thriller.
+
+```
+Netflix_Count = df2.groupby(['ID', "MovieType","Title"], as_index=False)['Netflix'].aggregate(np.mean) #group by netflix
+df_Netflix=Netflix_Count[(Netflix_Count.Netflix == 1)] #filter for only 1 aka on netflix service
+descending_order2 = df_Netflix["MovieType"].value_counts().sort_values(ascending=False).index
+dimensions_for_graph = (6, 5) #to avoid overlapping percents 
+fig, ax = plt.subplots(figsize=a4_dims) #need to use matplotlib to correct for overlap issue with the percents 
+sns.set_palette(["magenta","blue","pink","purple","red","green","cyan","palegreen","slateblue", "black","lightcoral","orange","wheat","darkgoldenrod","brown","teal","deepskyblue","yellow","gold","orchid","cornflowerblue","springgreen","thistle","tan","bisque","lime","deeppink"])
+
+ax=sns.countplot(x='MovieType', data=df_Netflix, order=descending_order2) #make visualization
+plt.xticks(rotation=90) #rotate axis titles
+
+#add labeling
+plt.title("Distribution of Genres on Netflix", size=26) #add title
+plt.xlabel("Movie Genre", size=18)
+plt.ylabel("Count on Streaming Platform", size=18)
+
+#add percents
+#total = (len(df_Netflix["MovieType"])) #of the proportion of tags, 18% are drama
+#total=(len(df["Title"])) #of the genre tags included in each movie listing, 43% include the keyword drama
+#create df that has Hulu but without split column for denominator
+df_Netflix_NoSplit= df.groupby(['ID', "Genres", "Title"], as_index=False)['Netflix'].aggregate(np.mean) #this groups Netflix in OG dataframe (no split)
+df_Netflix_NoSplit_OnlyNetflix=df_Netflix_NoSplit[(df_Netflix_NoSplit.Netflix == 1)] #this takes values where Netflix is 1 (AKA film is on Netflix)
+#add percents
+total=(len(df_Netflix_NoSplit_OnlyNetflix["Title"]))
+for p in ax.patches:
+    percentageNetflix = '{:.1f}%'.format(100 * p.get_height()/total)
+    x = p.get_x() + p.get_width()
+    y = p.get_height()
+    ax.annotate(percentageNetflix, (x, y),ha='center');
+    
+```
