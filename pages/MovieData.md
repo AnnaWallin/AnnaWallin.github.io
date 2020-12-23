@@ -70,3 +70,41 @@ df_handle_nulls_Ratings.dropna(axis=0, how='any', thresh=None, subset=None, inpl
 #df.isnull().sum().sum() # count of missing values overall across columns and rows
 df.isnull().sum() #breakdown of missing values by column
 ```
+![null_column](https://user-images.githubusercontent.com/76073032/102958029-9e3aa900-44a1-11eb-9da1-6ce3df3088ca.png)
+**Fig1** shows a breakdown of null values by column
+
+```
+#split Genres column by , 
+df2=df.assign(MovieType=df['Genres'].str.split(",")).explode("MovieType")
+
+#group data by their respective ID, year, movie type, and rating on IMDb
+ratings2 = df2.groupby(['ID', 'Year', "MovieType"], as_index=False)['IMDb'].aggregate(np.mean) 
+#ratings2.head() #view the grouped data
+
+#check that MovieType column was created successfully and is present in the new dataframe
+#df2.loc[0,'MovieType']
+#df2.loc[0,:]
+```
+
+```
+#overall genres popularity on all services TRY TO STANDARDIZE COLORS
+dimensions_for_graph = (6, 5) #to avoid overlapping percents 
+a4_dims = (11.7, 8.27) #set sizing, which will be used on the genre countplots
+fig, ax = plt.subplots(figsize=a4_dims) #need to use matplotlib to correct for overlap issue with the percents 
+desc_order = df2["MovieType"].value_counts().sort_values(ascending=False).index #order bars
+sns.set_palette(["magenta","blue","pink","red","green","purple","black","Cyan","palegreen", "slateblue","orange","brown","lightcoral","darkgoldenrod","teal","wheat","deepskyblue","orchid","springgreen","yellow","cornflowerblue","gold","thistle","deeppink","tan","bisque","lime"])
+ax2 = sns.countplot(df2.MovieType, order=desc_order)
+plt.title("Distribution of Genres Overall on Streaming Services", size=26)
+plt.xticks(rotation=90)
+total2 = (len(df["Title"])) # THIS IS count OF all MOVIES IN DENOMINATOR
+plt.xlabel("Movie Genre", size=18)
+plt.ylabel("Count on Streaming Platform", size=18)
+sns.set_style("darkgrid")
+
+for p in ax2.patches:
+    percentage2 = '{:.1f}%'.format(100 * p.get_height()/total2)
+    x = p.get_x() + p.get_width()
+    y = p.get_height()
+    ax2.annotate(percentage2, (x, y),ha='center');
+
+```
