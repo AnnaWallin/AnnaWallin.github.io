@@ -213,3 +213,40 @@ for p in ax4.patches:
     y = p.get_height()
     ax4.annotate(percentageDisney, (x, y),ha='center');
 ```
+![disney](https://user-images.githubusercontent.com/76073032/103040969-a0047b00-453a-11eb-9fcc-a45158545cc4.png)<br>
+**fig. 5** shows a breakdown of films by movie genre on Disney Plus<br>
+
+```
+#amazon attempt 
+Amazon_Count = df2.groupby(['ID', "MovieType"], as_index=False)['Prime Video'].aggregate(np.mean) 
+Amazon_Count #group to simplify
+Amazon_Count.rename(columns = {'Prime Video':'Amazon'}, inplace = True) #rename Prime Video column to Amazon to get next line to run
+df_Amazon=Amazon_Count[(Amazon_Count.Amazon == 1)] #select only movies on Disney
+dimensions_for_graph = (6, 5) #to avoid overlapping percents 
+a4_dims = (11.7, 8.27)
+fig, ax = plt.subplots(figsize=a4_dims)
+
+sns.set_palette(["magenta","blue","pink","red","green","black","purple","Cyan","palegreen", "orange","brown","slateblue","lightcoral","darkgoldenrod","teal","deepskyblue","springgreen","orchid","wheat","gold","yellow","cornflowerblue","thistle","deeppink","bisque","tan","lime"])
+sns.set_style("darkgrid")
+descending_order_Amazon = df_Amazon["MovieType"].value_counts().sort_values(ascending=False).index
+ax_Amazon=sns.countplot(x='MovieType', data=df_Amazon, order=descending_order_Amazon)
+plt.xticks(rotation=90)
+#add labeling
+plt.title("Distribution of Genres on Prime Video (Amazon)", size=26) #add title
+plt.xlabel("Movie Genre", size=18)
+plt.ylabel("Count on Streaming Platform", size=18)
+
+#add percents
+#totalAmazon = (len(df_Amazon["MovieType"]))
+#create df that has amazon but without split column for denominator
+df_Amazon_NoSplit= df.groupby(['ID', "Genres", "Title"], as_index=False)['Prime Video'].aggregate(np.mean) #this groups hulu in OG dataframe (no split)
+df_Amazon_NoSplit.rename(columns = {'Prime Video':'Amazon'}, inplace = True)
+df_Amazon_NoSplit_OnlyAmazon=df_Amazon_NoSplit[(df_Amazon_NoSplit.Amazon == 1)] #this takes values where amazon is 1 (AKA film is on amazon)
+#add percents
+totalAmazon=(len(df_Amazon_NoSplit_OnlyAmazon["Title"]))
+for p in ax_Amazon.patches:
+    percentageAmazon = '{:.1f}%'.format(100 * p.get_height()/totalAmazon)
+    x = p.get_x() + p.get_width()
+    y = p.get_height()
+    ax_Amazon.annotate(percentageAmazon, (x, y),ha='center');
+```
