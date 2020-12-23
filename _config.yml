@@ -24,11 +24,10 @@ aux_links:
   "Find Anna Rosemarie Wallin on LinkedIn":
     - "https://www.linkedin.com/in/anna-r-wallin/"
   "Find Anna Rosemarie Wallin on GitHub": 
-   - "//https://github.com/AnnaWallin"
+   - "//github.com/AnnaWallin"
 aux_links_new_tab: false
 has_children: true
 nav_order: 3
-
 
 # Back to top link
 back_to_top: true
