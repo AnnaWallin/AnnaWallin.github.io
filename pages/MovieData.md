@@ -70,7 +70,7 @@ df_handle_nulls_Ratings.dropna(axis=0, how='any', thresh=None, subset=None, inpl
 #df.isnull().sum().sum() # count of missing values overall across columns and rows
 df.isnull().sum() #breakdown of missing values by column
 ```
-![null_column](https://user-images.githubusercontent.com/76073032/102958029-9e3aa900-44a1-11eb-9da1-6ce3df3088ca.png)
+![null_column](https://user-images.githubusercontent.com/76073032/102958029-9e3aa900-44a1-11eb-9da1-6ce3df3088ca.png) <br>
 **Fig1** shows a breakdown of null values by column
 
 ```
@@ -109,5 +109,5 @@ for p in ax2.patches:
 
 ```
 ![genre_overall](https://user-images.githubusercontent.com/76073032/102958192-01c4d680-44a2-11eb-8f4c-ec1054482261.png)
-**Fig 2** shows the breakdown of movies according to genre overall
+**Fig 2** shows the breakdown of movies according to genre overall <br>
 **Note:** the percentages may be over 100% because each film can have more than one tag. For example, the Movie *Inception* has the following tags: Action,Adventure,Sci-Fi,Thriller
