@@ -275,3 +275,50 @@ plt.title("Distribution of Movie Release Years", size=24)
 plt.xlabel("Movie Release Year",size=14)
 plt.show()
 ```
+![image](https://user-images.githubusercontent.com/76073032/103041274-8f083980-453b-11eb-92d9-a04f9754f83d.png)<br>
+**Fig. 8**  This plot shows the distribution of film release years<br>
+
+```
+#scatter plot of IMDb and Rotten Tomato Ratings on Netflix
+df_Netflix_NoSplit= df.groupby(['ID', "Genres", "Title", "Year", "IMDb","Rotten Tomatoes"], as_index=False)['Netflix'].aggregate(np.mean) #this groups Netflix in OG dataframe (no split)
+df_Netflix_NullsHandled=df_Netflix_NoSplit[(df_Netflix_NoSplit.Netflix == 1)] #this takes values where Netflix is 1 (AKA film is on Netflix)
+df_Netflix_NullsHandled.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
+df_Netflix_NullsHandled.rename(columns = {'Rotten Tomatoes':'Rotten_Tomatoes'}, inplace = True) #rename 
+
+dimensions_for_graph = (8, 6) #to avoid overlapping percents 
+a3_dims=(8, 6)
+fig, ax = plt.subplots(figsize=a3_dims)
+sns.scatterplot(data=df_Netflix_NullsHandled, x="Year", y="Rotten_Tomatoes", color="red")
+plt.ylabel("Rotten Tomato Rating", size=18)
+plt.xlabel("Year", size=18)
+plt.title("Rotten Tomato Ratings by Year for Films on Netflix",size=26)
+```
+![image](https://user-images.githubusercontent.com/76073032/103041298-a1827300-453b-11eb-90e3-0d4bba68152c.png)<br>
+**Fig. 9** This plot shows the distribution of Rotten Tomato ratings according to year for films on Netflix <br>
+
+```
+#scatter plot of IMDb and Rotten Tomato Ratings on Netflix
+df_Netflix_NoSplit= df.groupby(['ID', "Genres", "Title", "Year", "IMDb","Rotten Tomatoes"], as_index=False)['Netflix'].aggregate(np.mean) #this groups Netflix in OG dataframe (no split)
+df_Netflix_NullsHandled=df_Netflix_NoSplit[(df_Netflix_NoSplit.Netflix == 1)] #this takes values where Netflix is 1 (AKA film is on Netflix)
+df_Netflix_NullsHandled.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
+df_Netflix_NullsHandled.rename(columns = {'Rotten Tomatoes':'Rotten_Tomatoes'}, inplace = True) #rename 
+
+dimensions_for_graph = (8, 6) #to avoid overlapping percents 
+a3_dims=(6, 3)
+fig, ax = plt.subplots(figsize=a3_dims)
+sns.scatterplot(data=df_Netflix_NullsHandled, x="Year", y="IMDb", color="red")
+plt.ylabel("IMDb Rating", size=18)
+plt.xlabel("Year", size=18)
+plt.title("IMDb Ratings by Year for Films on Netflix",size=26)
+```
+![image](https://user-images.githubusercontent.com/76073032/103041319-ae9f6200-453b-11eb-8614-ef5f032a2b0a.png)<br>
+**Fig. 10** This plot shows the distribution of IMDb ratings according to year for films on Netflix <br>
+
+### Examining IMDb and Rotten Tomato Ratings According to Streaming Site
+We can see that most films in this data set were produced in the year 2000 and later (fig. 8). For all streaming platforms (Netflix, Hulu, Disney Plus, and Amazon), there is a roughly positive correlation (fig. 7). In other words, if a value is low on IMDb, it is slighly linked to be low on Rotten Tomatoes as well. This holds true across platforms. Rotten Tomatoes data had considerable quantities of null values. These nulls were removed, so that only values that were non-null were considered. A limitation of these visualizations is that they do not take into account quantitity of ratings. For example, a film could have only one rating or a very small quantity of ratings on one site and more on the other. Please see the appendix for a breakdown of ratings by streaming platform. We can also see that there are more ratings that have been recorded from 2010 and onwards (fig. 9 and fig. 10) (these two plots are for Netflix but could easily be switched out for other streaming services. Due to page constraints, though, Netflix has been visualized). Essentially, while IMDb and Rotten Tomatoes are roughly positively correlated, there are more ratings for more recent films. So, there could be a bias in the data set in which older movies do not have very many ratings or are not represented. 
+
+### Conclusion
+In summary, if users enjoy dramas, they have a plethora of choices. Netflix and Amazon also have the most films overall, so they would be ideal choices for drama lovers. If a user is looking for more family friendly content, they could opt for Disney Plus. Most films in the data were produced during or after the year 2000. Overall, IMDb has a slightly lower average rating, but ratings are roughly positively correlated for all steaming platforms. If a movie goer is more discerning, they could read their film reviews on IMDb before picking a film. If a user is looking for a film that has been rated on IMDb or Rotten Tomatoes, they are more likely to fill this criteria with more recent films.
+
+Data was filtered, multiple dataframes were created, and organization was maintained throughout with coloring and labeling being consistent. This report can help users the next time they would like to watch a movie. 
+
