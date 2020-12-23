@@ -6,6 +6,7 @@ parent: Projects
 nav_order: 2
 ---
 
+### A little bit about the project...
 For this project, I used Python to visualize data that was found on [Kaggle](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney). I wanted to look at prevalence of genre across streaming platforms (Prime Video, Netflix, Hulu, Disney+) and explore the data.
 
 ### Introduction and Summary
