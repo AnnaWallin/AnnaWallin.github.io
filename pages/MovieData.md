@@ -143,3 +143,36 @@ for p in ax.patches:
     ax.annotate(percentageNetflix, (x, y),ha='center');
     
 ```
+![netflix](https://user-images.githubusercontent.com/76073032/102958645-063dbf00-44a3-11eb-8e2a-06a021c7bbbf.png)
+**fig. 3** shows a breakdown of films by movie genre on Netflix<br>
+
+```
+#Hulu attempt percents 
+Hulu_Count = df2.groupby(['ID', "MovieType", "Title"], as_index=False)['Hulu'].aggregate(np.mean) #group by Hulu
+
+df_Hulu=Hulu_Count[(Hulu_Count.Hulu == 1)] #filter for only 1 aka on Hulu service
+descending_order3 = df_Hulu["MovieType"].value_counts().sort_values(ascending=False).index
+dimensions_for_graph = (6, 5) #to avoid overlapping percents 
+a4_dims = (11.7, 8.27)
+fig, ax = plt.subplots(figsize=a4_dims) #need to use matplotlib to correct for overlap issue with the percents 
+sns.set_palette(["magenta","blue","pink","purple","green","red","black","palegreen","slateblue", "cyan","brown","orange","lightcoral","wheat","darkgoldenrod","teal","deepskyblue","yellow","springgreen","orchid","cornflowerblue","gold","thistle","tan","deeppink","lime","bisque"])
+sns.set_style("darkgrid")
+ax3=sns.countplot(x='MovieType', data=df_Hulu, order=descending_order3) #make visualization
+plt.xticks(rotation=90) #rotate axis titles
+
+#add labeling
+plt.title("Distribution of Genres on Hulu", size=26) #add title
+plt.xlabel("Movie Genre", size=18)
+plt.ylabel("Count on Streaming Platform", size=18)
+
+#create df that has Hulu but without split column for denominator
+df_Hulu_NoSplit= df.groupby(['ID', "Genres", "Title"], as_index=False)['Hulu'].aggregate(np.mean) #this groups hulu in OG dataframe (no split)
+df_Hulu_NoSplit_OnlyHulu=df_Hulu_NoSplit[(df_Hulu_NoSplit.Hulu == 1)] #this takes values where Hulu is 1 (AKA film is on Hulu)
+#add percents
+total3=(len(df_Hulu_NoSplit_OnlyHulu["Title"]))
+for p in ax3.patches:
+    percentageHulu = '{:.1f}%'.format(100 * p.get_height()/total3)
+    x = p.get_x() + p.get_width()
+    y = p.get_height()
+    ax3.annotate(percentageHulu, (x, y),ha='center');
+```
