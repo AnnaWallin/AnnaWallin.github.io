@@ -58,3 +58,4 @@ plt.axis("off")
 plt.savefig('wordcloud11.png')
 plt.show()
 ```
+![image](https://user-images.githubusercontent.com/76073032/103180863-7bbcdd00-485f-11eb-958b-062813cbefba.png)
