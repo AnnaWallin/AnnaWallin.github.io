@@ -21,7 +21,7 @@ Then, I used the coefficients to find the optimal alpha, beta, and gamma. I ran 
 
 ### Comparing the Forecast to Actual Sales<br>
 
-![iforecasttable](https://user-images.githubusercontent.com/76073032/103423696-a5cb1380-4b6d-11eb-849f-4edeb2e07c78.png)
+![iforecasttable](https://user-images.githubusercontent.com/76073032/103423696-a5cb1380-4b6d-11eb-849f-4edeb2e07c78.png)<br>
 Here is a table comparing my forecasted values and the actual quantity of vehicles sold. 
 
 ### Reasons for Discrepencies<br>
