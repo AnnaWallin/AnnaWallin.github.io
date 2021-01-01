@@ -31,4 +31,4 @@ Here is a table comparing my forecasted values and the actual quantity of vehicl
 
 The model appears fairly accurate with the exception of 2nd period (February). The forecasted sales for that month appear lower than actual sales. A possible explanation for this is that in Norway, the most popular cars sold are either Hybrid or electric (according to the Kaggle description). In this month, [the Norwegian oil and gas industry plummeted](https://www.bbc.com/news/business-35318236), which could explain the higher sales in cars (people were purchasing more fuel efficient cars, focused on the future). 
 
-Additionally, the most recent previous period (2015) features a dip in February. The most recent period is most heavily weighted and thsi could be pulling the forecast for February down. 
+Additionally, the most recent previous period (2015) features a dip in February. The most recent period is most heavily weighted and this could be pulling the forecast for February down. 
