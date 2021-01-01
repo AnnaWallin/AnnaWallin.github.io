@@ -4,15 +4,15 @@
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Table of Contents
   </summary>
   
   {: .text-delta }
-1. <a href="#intro">Introduction </a><br>
+1. <a href="#intro"> Introduction </a><br>
 
-2. <a href="#undergradlinks">Undergraduate Program Site </a><br>
+2. <a href="#undergradlinks"> Undergraduate Program Site </a><br>
 
-3. <a href="#gradlinks">Graduate Program Sites </a><br>
+3. <a href="#gradlinks"> Graduate Program Sites </a><br>
 {:toc}
 </details>
 
