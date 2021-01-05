@@ -10,14 +10,14 @@
   {: .text-delta }
 <a href="#intro"> 1. Introduction </a><br>
 
-2. <a href="#undergradlinks"> Undergraduate Program Site </a><br>
+2. <a href="#undergradlinks"> Undergraduate School Link </a><br>
 
-3. <a href="#gradlinks"> Graduate Program Sites </a><br>
+3. <a href="#gradlinks"> Graduate School Links </a><br>
 {:toc}
 </details>
 
 
-<h2 id="#intro"> 1. Introduction to Webpage </h2><br>
+<h2 id="#intro"> 1. Introduction </h2><br>
 Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am currently a graduate student at the University of Texas at Austin. I will be completing my Master of Science in Marketing through McCombs in May of 2021. Before coming to UT, I completed my undergraduate degree in Geography (Urban Systems) at McGill University in Montreal, Canada. While I am an American, the opportunity to study at McGill was a chance that I could not pass up. This site is intended to serve as a portfolio, a place that I can show what I am working on and what interests me.
 
 <h2 id="#undergradlinks"> 2. Undergraduate School Link </h2> <br>
