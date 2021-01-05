@@ -8,7 +8,7 @@
   </summary>
   
   {: .text-delta }
-1. <a href="#intro"> Introduction </a><br>
+<a href="#intro"> 1. Introduction </a><br>
 
 2. <a href="#undergradlinks"> Undergraduate Program Site </a><br>
 
@@ -25,7 +25,7 @@ Here is a link to my undergraduate academic institution, McGill University. <br>
 [Link to McGill University](https://www.mcgill.ca) <br>
 
 <h2 id="#gradlinks"> 2. Graduate School Links </h2> <br>
-Here are links to my graduate program webpage, McCombs, and UT Austin <br>
+Here are links to my graduate program webpage, McCombs, and UT Austin. <br>
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
-[UT Austin](https://www.utexas.edu)
+[Link to UT Austin](https://www.utexas.edu)
