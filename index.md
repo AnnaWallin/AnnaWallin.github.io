@@ -29,7 +29,7 @@ Here is a link to my undergraduate academic institution, McGill University. <br>
 [Link to McGill University](https://www.mcgill.ca) <br>
 
 <h2 id="#gradlinks"> 3. Graduate School Links </h2> <br>
-Here are links to my graduate program webpage, McCombs, and UT Austin. <br>
+Here are links to my graduate program webpage, McCombs Business School, and UT Austin. <br>
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
 [Link to UT Austin](https://www.utexas.edu)
