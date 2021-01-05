@@ -11,10 +11,10 @@
 <a href id="#intro"> 1. Introduction </a><br>
 
 {: .text-delta }
-<a href="#undergradlinks"> 2. Undergraduate School Link </a><br>
+<a href id="#undergradlinks"> 2. Undergraduate School Link </a><br>
 
 {: .text-delta }
-<a href="#gradlinks"> 3. Graduate School Links </a><br>
+<a href id="#gradlinks"> 3. Graduate School Links </a><br>
 
 {:toc}
 
