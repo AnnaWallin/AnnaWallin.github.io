@@ -8,7 +8,7 @@
   </summary>
   
   {: .text-delta }
-<a href="#intro"> 1. Introduction </a><br>
+<a href id="#intro"> 1. Introduction </a><br>
 
 {: .text-delta }
 <a href="#undergradlinks"> 2. Undergraduate School Link </a><br>
@@ -28,7 +28,7 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 Here is a link to my undergraduate academic institution, McGill University. <br>
 [Link to McGill University](https://www.mcgill.ca) <br>
 
-<h2 id="#gradlinks"> 2. Graduate School Links </h2> <br>
+<h2 id="#gradlinks"> 3. Graduate School Links </h2> <br>
 Here are links to my graduate program webpage, McCombs, and UT Austin. <br>
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
