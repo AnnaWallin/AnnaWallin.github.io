@@ -33,6 +33,4 @@ back_to_top_text: "Back to Top"
 
 plugins:
   - jekyll-seo-tag
-  
-gems:
-  -jekyll-sitemap
+  - jekyll-sitemap
