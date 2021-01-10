@@ -27,11 +27,13 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 
 <h2 id="undergradlinks">2. More About McGill University</h2> 
 McGill University is consistently ranked top 30 worldwide. It is a premier research institution located in Canada. The website can be found below. <br>
+
 {: .text-delta }
 [Link to McGill University](https://www.mcgill.ca) <br>
 
 <h2 id="gradlinks">3. More About the Master of Science in Marketing, UT Austin, and McCombs</h2> 
 The MSM is ranked top two in the United States. Here are links to my graduate program webpage, McCombs Business School, and the University of Texas at Austin. <br>
+
 {: .text-delta }
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
 {: .text-delta }
