@@ -106,3 +106,17 @@ caret::varImp(logit_model)
 
 ```
 
+![image](https://user-images.githubusercontent.com/76073032/104113171-97db6800-52bc-11eb-8ba7-49d1aafafb0a.png)
+![image](https://user-images.githubusercontent.com/76073032/104113177-a6c21a80-52bc-11eb-900c-4923f3c316ef.png)
+
+The most important predictor of CHD is age, followed by the sex of a person.
+
+
+### Now, let's examine multicollinearity
+```{r mc}
+#install.packages("car")
+
+library(car)
+car::vif(logit_model)
+```
+
