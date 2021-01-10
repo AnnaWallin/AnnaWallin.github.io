@@ -41,7 +41,8 @@ logit_model<-glm(TenYearCHD~male+age+education+currentSmoker+cigsPerDay+BPMeds+ 
 
 ```
 
-```{r view}
+```
+{r view}
 summary(logit_model)
 
 ```
