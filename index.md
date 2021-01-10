@@ -36,8 +36,10 @@ The MSM is ranked top two in the United States. Here are links to my graduate pr
 
 {: .text-delta }
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
+
 {: .text-delta }
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
+
 {: .text-delta }
 [Link to UT Austin](https://www.utexas.edu)
 
