@@ -13,4 +13,4 @@ nav_order: 4
 
 **Industries**
 - The outdoors industry
-- CPG
+- CPG (frozen desserts)
