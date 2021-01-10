@@ -26,7 +26,7 @@
 Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am currently a graduate student at the University of Texas at Austin. I will be completing my Master of Science in Marketing through McCombs in May of 2021. Before coming to UT, I completed my undergraduate degree in Geography (Urban Systems) at McGill University in Montreal, Canada. While I am an American, the opportunity to study at McGill was a chance that I could not pass up. This site is intended to serve as a portfolio, a place that I can show what I am working on and what interests me.
 
 <h2 id="#undergradlinks">More About McGill University...</h2> <br>
-McGill University is consistently ranked top 30 worldwide. It is a premier research institution located in Canada. The website can be found below.
+McGill University is consistently ranked top 30 worldwide. It is a premier research institution located in Canada. The website can be found below. <br>
 [Link to McGill University](https://www.mcgill.ca) <br>
 
 <h2 id="#gradlinks">More About the Master of Science in Marketing, UT Austin, and McCombs...</h2> <br>
