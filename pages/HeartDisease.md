@@ -120,3 +120,5 @@ library(car)
 car::vif(logit_model)
 ```
 
+![image](https://user-images.githubusercontent.com/76073032/104113224-03bdd080-52bd-11eb-9041-11598b6bf7e0.png)
+Looking at the Variance Inflation Indicator, all values range from 1 to 3.6. This means that there is moderate correlation between a predictor variable and other variables. Given that there is not strong correlation, this does not need any action to correct.
