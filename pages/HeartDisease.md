@@ -61,3 +61,14 @@ confint(logit_model)
 
 ![image](https://user-images.githubusercontent.com/76073032/104112963-9741d200-52ba-11eb-908e-64f72505880e.png)
 
+```{r CI default}
+
+```
+![image](https://user-images.githubusercontent.com/76073032/104112987-dc660400-52ba-11eb-9510-eac86bbff4f5.png)
+
+### Odds Ratios
+```{r odds ratio }
+exp(coef(logit_model))
+
+```
+
