@@ -26,4 +26,6 @@ mydata<-read_csv("HeartDiseaseOG.csv") #load in data
 summary(mydata) #summary statistics of the data set
 sapply(mydata,sd) #view standard deviations
 ```
-
+### Summary Statistics...
+Here we have the summary statistics. We can see the means for each variable as well as the standard deviation. There is a pretty significant variation in age, education, and whether someone is a smoker.
+![image](https://user-images.githubusercontent.com/76073032/104112777-521ca080-52b8-11eb-9690-9f9562ba86c1.png)
