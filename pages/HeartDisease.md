@@ -10,3 +10,20 @@ This project uses the Framingham Heart Study data found [here](https://www.kaggl
 
 
 
+
+```
+{r install, message = FALSE}
+
+library(readr)
+```
+
+```{r}
+mydata<-read_csv("HeartDiseaseOG.csv") #load in data
+#binary response variable is TenYearCHD
+#Predictor variables are: male, age, education, currentSmoker,cigsPerDay,BPMeds, prevalentStroke,prevalentHyp,diabetes, totChol, sysBP, diaBP, BMI, heartRate, glucose
+#education has a value of 1 to 4 depending on if the respondent did some high school, high school or GED, some college or vocational school, or college
+
+summary(mydata) #summary statistics of the data set
+sapply(mydata,sd) #view standard deviations
+```
+
