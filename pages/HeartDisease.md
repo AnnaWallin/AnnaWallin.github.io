@@ -54,7 +54,8 @@ The coefficients show the log odds for a one unit increase in the x (predictor) 
 ![image](https://user-images.githubusercontent.com/76073032/104112839-4e3d4e00-52b9-11eb-8135-ba3cda75f467.png)
 
 ### Calculating Confidence Interval
-```{r CI}
+```
+{r CI}
 #calc CIs
 confint(logit_model)
 
@@ -62,13 +63,15 @@ confint(logit_model)
 
 ![image](https://user-images.githubusercontent.com/76073032/104112963-9741d200-52ba-11eb-908e-64f72505880e.png)
 
-```{r CI default}
-
+```
+{r CI default}
+confint.default(logit_model)
 ```
 ![image](https://user-images.githubusercontent.com/76073032/104112987-dc660400-52ba-11eb-9510-eac86bbff4f5.png)
 
 ### Odds Ratios
-```{r odds ratio }
+```
+{r odds ratio }
 exp(coef(logit_model))
 
 ```
@@ -76,7 +79,8 @@ exp(coef(logit_model))
 
 
 
-```{r odds ratio table with CI}
+```
+{r odds ratio table with CI}
 exp(cbind(Odds_Ratio=coef(logit_model),confint(logit_model))) # 95 % CI
 
 ```
@@ -85,7 +89,8 @@ exp(cbind(Odds_Ratio=coef(logit_model),confint(logit_model))) # 95 % CI
 
 ![image](https://user-images.githubusercontent.com/76073032/104113112-108df480-52bc-11eb-85e7-35fe7d733858.png)
 
-```{r exp}
+```
+{r exp}
 
 exp(0.002377) #totChol odds ratio exponentiated beta
 #a one unit increase in total cholesterol increases odds of CHD risk over a ten year period by 0.2377%
@@ -97,7 +102,8 @@ And a one unit increase in total cholesterol increases odds of CHD risk over a t
 
 
 ### Variable Importance
-```{r var import}
+```
+{r var import}
 #library(caret)
 #update.packages()
 #install.packages("caret",
@@ -114,12 +120,13 @@ The most important predictor of CHD is age, followed by the sex of a person.
 
 
 ### Now, let's examine multicollinearity
-```{r mc}
+```
+{r mc}
 #install.packages("car")
 
 library(car)
 car::vif(logit_model)
 ```
 
-![image](https://user-images.githubusercontent.com/76073032/104113224-03bdd080-52bd-11eb-9041-11598b6bf7e0.png)
+![image](https://user-images.githubusercontent.com/76073032/104113224-03bdd080-52bd-11eb-9041-11598b6bf7e0.png)<br>
 Looking at the Variance Inflation Indicator, all values range from 1 to 3.6. This means that there is moderate correlation between a predictor variable and other variables. Given that there is not strong correlation, this does not need any action to correct.
