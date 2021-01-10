@@ -58,3 +58,6 @@ The coefficients show the log odds for a one unit increase in the x (predictor) 
 confint(logit_model)
 
 ```
+
+![image](https://user-images.githubusercontent.com/76073032/104112963-9741d200-52ba-11eb-908e-64f72505880e.png)
+
