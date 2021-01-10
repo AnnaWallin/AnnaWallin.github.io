@@ -11,10 +11,10 @@
 <a href="#intro">Introduction</a>
 
 {: .text-delta }
-<a href="#undergradlinks">More About McGill University</a>
+<a href="#undergradlinks">McGill</a>
 
 {: .text-delta }
-<a href="#gradlinks">More About the Master of Science in Marketing, UT Austin, and McCombs</a><br>
+<a href="#gradlinks">MSM</a><br>
 
 {:toc}
 
