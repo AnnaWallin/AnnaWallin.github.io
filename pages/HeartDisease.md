@@ -9,7 +9,7 @@ nav_order: 5
 This project uses the Framingham Heart Study data found [here](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset). I model the probability of an individual becoming at risk for coronary heart disease over a ten year period. R was used.
 
 
-
+### Summary Statistics and Setup...
 
 ```
 {r install, message = FALSE}
@@ -26,10 +26,11 @@ mydata<-read_csv("HeartDiseaseOG.csv") #load in data
 summary(mydata) #summary statistics of the data set
 sapply(mydata,sd) #view standard deviations
 ```
-### Summary Statistics...
 Here we have the output summary statistics. We can see the means for each variable as well as the standard deviation. There is a pretty significant variation in age, education, and whether someone is a smoker.
 ![image](https://user-images.githubusercontent.com/76073032/104112777-521ca080-52b8-11eb-9690-9f9562ba86c1.png)
 
+
+### Logit Model
 
 ```{r logit}
 mydata$education<-factor(mydata$education) #make education categorical var 
@@ -45,4 +46,15 @@ summary(logit_model)
 
 ```
 
-### Logit Model
+Here we have the output of the logit model. 582 values were deleted due to missingness. Variables that have a p-value below 0.05 are significant. They are as follows: male, age, cigsPerDay, totChol, sysBP, and glucose.
+
+The coefficients show the log odds for a one unit increase in the x (predictor) variable. For example, for a one unit increase in cigsPerDay, being categorized as at risk for coronary heart disease over a ten year period increases by 0.018387.
+
+![image](https://user-images.githubusercontent.com/76073032/104112839-4e3d4e00-52b9-11eb-8135-ba3cda75f467.png)
+
+### Calculating Confidence Interval
+```{r CI}
+#calc CIs
+confint(logit_model)
+
+```
