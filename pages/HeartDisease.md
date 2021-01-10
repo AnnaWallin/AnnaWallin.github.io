@@ -71,10 +71,16 @@ confint(logit_model)
 exp(coef(logit_model))
 
 ```
-
 ![image](https://user-images.githubusercontent.com/76073032/104113017-1a632800-52bb-11eb-9f3a-ef810f18bebc.png)
+
+
 
 ```{r odds ratio table with CI}
 exp(cbind(Odds_Ratio=coef(logit_model),confint(logit_model))) # 95 % CI
 
 ```
+
+![image](https://user-images.githubusercontent.com/76073032/104113040-50a0a780-52bb-11eb-999e-634fe798887b.png)
+
+
+
