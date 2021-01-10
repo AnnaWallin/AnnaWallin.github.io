@@ -82,5 +82,27 @@ exp(cbind(Odds_Ratio=coef(logit_model),confint(logit_model))) # 95 % CI
 
 ![image](https://user-images.githubusercontent.com/76073032/104113040-50a0a780-52bb-11eb-999e-634fe798887b.png)
 
+![image](https://user-images.githubusercontent.com/76073032/104113112-108df480-52bc-11eb-85e7-35fe7d733858.png)
 
+```{r exp}
+
+exp(0.002377) #totChol odds ratio exponentiated beta
+#a one unit increase in total cholesterol increases odds of CHD risk over a ten year period by 0.2377%
+```
+
+Looking at the odds ratio of two variables in particular...
+So, being male increases the odds of being at risk for coronary heart disease by a factor of 1.7430891161.
+And a one unit increase in total cholesterol increases odds of CHD risk over a ten year period by 0.2377%
+
+
+### Variable Importance
+```{r var import}
+#library(caret)
+#update.packages()
+#install.packages("caret",
+                 #repos = "http://cran.r-project.org", 
+                 #dependencies = c("Depends", "Imports", "Suggests"))
+caret::varImp(logit_model)
+
+```
 
