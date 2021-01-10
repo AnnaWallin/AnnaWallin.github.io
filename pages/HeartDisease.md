@@ -32,12 +32,12 @@ Here we have the output summary statistics. We can see the means for each variab
 
 ### Logit Model
 
-```{r logit}
+```
+{r logit}
 mydata$education<-factor(mydata$education) #make education categorical var 
 
 #run logistic regression
 logit_model<-glm(TenYearCHD~male+age+education+currentSmoker+cigsPerDay+BPMeds+ prevalentStroke+prevalentHyp+diabetes+totChol+sysBP+diaBP+BMI+heartRate+glucose, data=mydata,family = binomial(link = "logit"))
-
 
 ```
 
