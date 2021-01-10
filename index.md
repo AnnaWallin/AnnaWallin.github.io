@@ -32,12 +32,15 @@ McGill University is consistently ranked top 30 worldwide. It is a premier resea
 
 <h2 id="gradlinks">3. More About the Master of Science in Marketing, UT Austin, and McCombs</h2> 
 The MSM is ranked top two in the United States. Here are links to my graduate program webpage, McCombs Business School, and the University of Texas at Austin. <br>
+{: .text-delta }
 [Link to the Master of Science in Marketing](https://www.mccombs.utexas.edu/Master-of-Science-in-Marketing) <br>
+{: .text-delta }
 [Link to McCombs](https://www.mccombs.utexas.edu) <br>
+{: .text-delta }
 [Link to UT Austin](https://www.utexas.edu)
 
 
 
 
-
+{: .text-delta }
 <a href="#top">Back to the Top</a>
