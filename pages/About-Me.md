@@ -10,7 +10,8 @@ Just having graduated from McGill University in Montreal, I looked for my next s
 
 In my free-time, I like to play with my dog (Comet), hike, and make my own ice cream. 
 
-<img src="https://user-images.githubusercontent.com/76073032/102831904-89cbb300-43b2-11eb-8fc5-bb9dc2e44635.png" width="200" height="150" />
-<img src="https://user-images.githubusercontent.com/76073032/102831727-1aee5a00-43b2-11eb-800a-b1d51a17c7cd.png" width="200" height="150" />
-<img src="https://user-images.githubusercontent.com/76073032/102831752-28a3df80-43b2-11eb-9a14-0083cf4067ec.png" width="200" height="150" />
+<img src= "https://user-images.githubusercontent.com/76073032/104860866-ddb6b280-58f2-11eb-8407-0a1f09913cb2.png" width="200" height="170" />
+<img src="https://user-images.githubusercontent.com/76073032/102831904-89cbb300-43b2-11eb-8fc5-bb9dc2e44635.png" width="200" height="170" />
+<img src="https://user-images.githubusercontent.com/76073032/102831727-1aee5a00-43b2-11eb-800a-b1d51a17c7cd.png" width="200" height="170" />
+<img src="https://user-images.githubusercontent.com/76073032/102831752-28a3df80-43b2-11eb-9a14-0083cf4067ec.png" width="200" height="170" />
 
