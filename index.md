@@ -27,7 +27,7 @@ Thank you for visiting my page. My name is Anna Rosemarie Wallin, and I am curre
 
 
 <h2 id="undergradlinks">2. More About McGill University</h2> 
-McGill University is consistently ranked among the top 30  universities worldwide. It is a premier research institution located in Monreal, Quebec, Canada. To learn more about McGill, please click [here](https://www.mcgill.ca). <br>
+McGill University is consistently ranked among the top 30  universities worldwide. It is a premier research institution located in Montreal, Quebec, Canada. To learn more about McGill, please click [here](https://www.mcgill.ca). <br>
 
 
 <h2 id="gradlinks">3. More About the Master of Science in Marketing, UT Austin, and McCombs</h2> 
