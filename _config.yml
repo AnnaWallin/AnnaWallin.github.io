@@ -16,7 +16,7 @@ tokenizer_separator: /[\s/]+/
   # Supports true (default) or false
 rel_url: true
 
-color_scheme: dark
+color_scheme: light
 
 aux_links:
   "Find Anna Rosemarie Wallin on LinkedIn":
