@@ -42,7 +42,7 @@ The Master of Science in Marketing at McCombs School of Business is a 1 year STE
 - Sales Forecasting
 - Pricing and Price Promotions
 - RFM Analysis
-
+- Canva
 
 **Previous roles that graduates have worked in:**
 - Consulting Analyst
