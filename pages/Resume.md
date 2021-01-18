@@ -2,7 +2,7 @@
 title: "My Resume"
 theme: default
 layout: default
-has_children: true
+has_children: false
 nav_order: 5
 ---
 
