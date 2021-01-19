@@ -10,37 +10,10 @@ nav_order: 1
 Conjoint analysis is a helpful tool to indirectly analyze consumer preferences. Essentially, which product attributes hold the most weight to consumers? 
 
 ### Project scope
-For this project, our team (Anna Wallin, Rissa Broudy, Daniel Golden, and Mandy Hong) examined sparkling water preferences. The attributes we examined were: flavor, packaging, sweetness, and price. We sent out a survey and analyzed responses.
-
-**Attribute levels are as follows:**<br>
-Flavors: Mango, lemon, cherry<br>
-Packaging: Plastic bottle, metal can, glass bottle<br>
-Sweetness: Sugar-free, sweetened<br>
-Prices: $1.50, $3.00, $4.00<br>
-
-### Preferences for a single respondent
-
-Here we can see that respondent P values flavor the most, followed by whether or not the beverage is sweetened. Packaging plays the smallest role in their purchasing decision. 
-
-![ConjointAttributePreferencesRelative](https://user-images.githubusercontent.com/76073032/102930367-e33eeb00-4461-11eb-87db-81f8db6ea7a7.png)
-
-Here we have an anonymous respondent, P. We can see that their best option would be a mango flavored, sweetened sparkling water that is packaged in a plastic bottle and sold for $1.50. Their worst option would be lemon flavored sparkling water that is packaged in a glass bottle and sold for $4.00. 
-
-![conjointalternatives](https://user-images.githubusercontent.com/76073032/102926495-b76c3700-445a-11eb-9535-577c312e66ac.png)
-
-### Which product does the consumer choose given two options?
-Here we have two products on the market and have calculated that respondent P will choose option 2, given their preferences. 
-
-![image](https://user-images.githubusercontent.com/76073032/102932215-775e8180-4465-11eb-9b20-1166ffd87080.png)
-
-We can perform the same calculation for 10 of our respondents to see which product is expected to dominate in the market.
-![image](https://user-images.githubusercontent.com/76073032/102933459-e4731680-4467-11eb-8eca-c428dca1766a.png)
+For this project, our team (Anna Wallin, Rissa Broudy, Daniel Golden, and Mandy Hong) examined sparkling water preferences. The attributes we examined were: flavor, packaging, sweetness, and price. We sent out a survey and analyzed responses. For this project, we used Excel. The file can be found below. 
 
 
+<iframe src="https://onedrive.live.com/embed?cid=6D17A4362C1AAE2F&resid=6D17A4362C1AAE2F%2124493&authkey=ANs2MSDHY2qxGJc&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe>
 
-Next, let's say that a company is trying to ascertain how well their new product will do in the marketplace. Here is a snapshot of the calculation to see which product a certain consumer (Respondent P) will choose. In this case, they chose option 3, the new product. 
 
-![whichchoice](https://user-images.githubusercontent.com/76073032/102930787-bccd7f80-4462-11eb-89c3-8802347e7619.png)
-
-The addition of the new product has clearly been successful.
-![image](https://user-images.githubusercontent.com/76073032/102933532-02407b80-4468-11eb-86d3-e0b5193b1dea.png)
+<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=6D17A4362C1AAE2F%2124494&authkey=%21AM4_OxnVM71ju0M&em=2&wdAllowInteractivity=False&wdDownloadButton=True&wdInConfigurator=True"></iframe>
