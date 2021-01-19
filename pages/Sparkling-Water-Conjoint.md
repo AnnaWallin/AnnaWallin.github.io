@@ -10,7 +10,7 @@ nav_order: 1
 Conjoint analysis is a helpful tool to indirectly analyze consumer preferences. Essentially, which product attributes hold the most weight to consumers? 
 
 ### Project scope
-For this project, our team examined sparkling water preferences. The attributes we examined were: flavor, packaging, sweetness, and price. We sent out a survey and analyzed responses.
+For this project, our team (Anna Wallin, Rissa Broudy, Daniel Golden, and Mandy Hong) examined sparkling water preferences. The attributes we examined were: flavor, packaging, sweetness, and price. We sent out a survey and analyzed responses.
 
 **Attribute levels are as follows:**<br>
 Flavors: Mango, lemon, cherry<br>
